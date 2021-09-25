@@ -7,6 +7,8 @@ const data = [
     country: 'United States',
     source: 'Amazon',
     industry: 'Technology',
+    img: 'https://thumbor.forbes.com/thumbor/190x190/smart/filters:format(jpeg)/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5bb22ae84bbe6f67d2e82e05%2F416x416.jpg%3Fbackground%3D000000%26cropX1%3D627%26cropX2%3D1639%26cropY1%3D129%26cropY2%3D1142',
+    desc: 'Jeff Bezos founded e-commerce giant Amazon in 1994 out of his garage in Seattle. He stepped down as CEO to become executive chairman on July 5, 2021.',
   },
   {
     id: 2,
@@ -16,6 +18,8 @@ const data = [
     country: 'United States',
     source: 'Tesla, SpaceX',
     industry: 'Automotive',
+    img: 'https://thumbor.forbes.com/thumbor/190x190/smart/filters:format(jpeg)/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f47d4de7637290765bce495%2F416x416.jpg%3Fbackground%3D000000%26cropX1%3D1699%26cropX2%3D3845%26cropY1%3D559%26cropY2%3D2704',
+    desc: 'Elon Musk is working to revolutionize transportation both on Earth, through electric car maker Tesla -- and in space, via rocket producer SpaceX.',
   },
   {
     id: 3,
@@ -25,6 +29,8 @@ const data = [
     country: 'France',
     source: 'LVMH',
     industry: 'Fashion & Retail',
+    img: 'https://thumbor.forbes.com/thumbor/190x190/smart/filters:format(jpeg)/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5dc05518ca425400079c659f%2F416x416.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D4000%26cropY1%3D1209%26cropY2%3D5212',
+    desc: 'One of the worlds ultimate taste-makers, Bernard Arnault oversees an empire of 70 brands including Louis Vuitton and Sephora.',
   },
   {
     id: 4,
@@ -34,6 +40,8 @@ const data = [
     country: 'United States',
     source: 'Microsoft',
     industry: 'Technology',
+    img: 'https://thumbor.forbes.com/thumbor/190x190/smart/filters:format(jpeg)/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f4ebe0c87612dab4f12a597%2F416x416.jpg%3Fbackground%3D000000%26cropX1%3D292%26cropX2%3D3684%26cropY1%3D592%26cropY2%3D3987',
+    desc: 'Bill Gates and Melinda French Gates, now divorcing, chair the Bill & Melinda Gates Foundation, the worlds largest private charitable foundation.',
   },
   {
     id: 5,
@@ -43,6 +51,8 @@ const data = [
     country: 'United States',
     source: 'Facebook',
     industry: 'Technology',
+    img: 'https://thumbor.forbes.com/thumbor/190x190/smart/filters:format(jpeg)/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c76b7d331358e35dd2773a9%2F416x416.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D4401%26cropY1%3D0%26cropY2%3D4401',
+    desc: 'Facebook, the social network Zuckerberg runs, has been an information hub during the pandemic, but has come under scrutiny for spreading vaccine misinformation.',
   },
   {
     id: 6,
@@ -52,6 +62,8 @@ const data = [
     country: 'United States',
     source: 'Berkshire Hathaway',
     industry: 'Finance & Investment',
+    img: 'https://thumbor.forbes.com/thumbor/190x190/smart/filters:format(jpeg)/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5babb7f1a7ea4342a948b79a%2F416x416.jpg%3Fbackground%3D000000%26cropX1%3D748%26cropX2%3D3075%26cropY1%3D1753%26cropY2%3D4082',
+    desc: 'Facebook, the social network Zuckerberg runs, has been an information hub during the pandemic, but has come under scrutiny for spreading vaccine misinformation.',
   },
   {
     id: 7,
@@ -61,6 +73,8 @@ const data = [
     country: 'United States',
     source: 'Software',
     industry: 'Technology',
+    img: 'https://thumbor.forbes.com/thumbor/190x190/smart/filters:format(jpeg)/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5e8b62cfc095010007bffea0%2F416x416.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D4529%26cropY1%3D652%26cropY2%3D5184',
+    desc: 'Facebook, the social network Zuckerberg runs, has been an information hub during the pandemic, but has come under scrutiny for spreading vaccine misinformation.',
   },
   {
     id: 8,
@@ -70,6 +84,8 @@ const data = [
     country: 'United States',
     source: 'Google',
     industry: 'Technology',
+    img: 'https://thumbor.forbes.com/thumbor/190x190/smart/filters:format(jpeg)/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c76bcaaa7ea43100043c836%2F416x416.jpg%3Fbackground%3D000000%26cropX1%3D227%26cropX2%3D2022%26cropY1%3D22%26cropY2%3D1817',
+    desc: 'Larry Page stepped down as CEO of Alphabet, the parent of Google, in December 2019 but remains a board member and a controlling shareholder.',
   },
   {
     id: 9,
@@ -79,6 +95,8 @@ const data = [
     country: 'United States',
     source: 'Google',
     industry: 'Technology',
+    img: 'https://thumbor.forbes.com/thumbor/190x190/smart/filters:format(jpeg)/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c7d7c254bbe6f78090d831f%2F416x416.jpg%3Fbackground%3D000000%26cropX1%3D475%26cropX2%3D2887%26cropY1%3D168%26cropY2%3D2582',
+    desc: 'Sergey Brin stepped down as president of Alphabet, parent company of Google, in December 2019 but remains a controller shareholder and a board member.',
   },
   {
     id: 10,
@@ -88,6 +106,8 @@ const data = [
     country: 'India',
     source: 'diversified',
     industry: 'Diversified',
+    img: 'https://thumbor.forbes.com/thumbor/190x190/smart/filters:format(jpeg)/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c7d7829a7ea434b351ba0b6%2F416x416.jpg%3Fbackground%3D000000%26cropX1%3D206%26cropX2%3D2043%26cropY1%3D250%26cropY2%3D2089',
+    desc: 'Mukesh Ambani chairs and runs $74 billion (revenue) Reliance Industries, which has interests in petrochemicals, oil and gas, telecom and retail.',
   },
   {
     id: 11,
@@ -97,6 +117,8 @@ const data = [
     country: 'Spain',
     source: 'Zara',
     industry: 'Fashion & Retail',
+    img: 'https://thumbor.forbes.com/thumbor/190x190/smart/filters:format(jpeg)/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c76b94131358e35dd27748e%2F416x416.jpg%3Fbackground%3D000000%26cropX1%3D179%26cropX2%3D2232%26cropY1%3D216%26cropY2%3D2269',
+    desc: 'Amancio Ortega of Spain is one of the wealthiest clothing retailers in the world.',
   },
   {
     id: 12,
@@ -106,6 +128,8 @@ const data = [
     country: 'France',
     source: 'L`oreal',
     industry: 'Fashion & Retail',
+    img: 'https://thumbor.forbes.com/thumbor/190x190/smart/filters:format(jpeg)/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F605e26e3c65f7c2596bd3e15%2F416x416.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D1080%26cropY1%3D0%26cropY2%3D1080',
+    desc: 'Francoise Bettencourt Meyers is the granddaughter of the founder of LOreal and the richest woman in the world.',
   },
   {
     id: 13,
@@ -115,6 +139,8 @@ const data = [
     country: 'China',
     source: 'Beverages & Pharmaceuticals',
     industry: 'Food & Beverage',
+    img: 'https://thumbor.forbes.com/thumbor/190x190/smart/filters:format(jpeg)/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F60380e390357bc1fbfc0bc32%2F416x416.jpg%3Fbackground%3D000000%26cropX1%3D116%26cropX2%3D1327%26cropY1%3D201%26cropY2%3D1413',
+    desc: 'Zhong Shanshan chairs Nongfu Spring, a bottled water company, which listed its shares in Hong Kong in September 2020.',
   },
   {
     id: 14,
@@ -124,6 +150,8 @@ const data = [
     country: 'United States',
     source: 'Microsoft',
     industry: 'Technology',
+    img: 'https://thumbor.forbes.com/thumbor/190x190/smart/filters:format(jpeg)/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F59d50c47a7ea436b47b36d66%2F416x416.jpg%3Fbackground%3D000000%26cropX1%3D553%26cropX2%3D2940%26cropY1%3D322%26cropY2%3D2708',
+    desc: 'Steve Ballmer is the high-wattage former CEO of Microsoft, who led the company from 2000 to 2014.',
   },
   {
     id: 15,
@@ -133,5 +161,7 @@ const data = [
     country: 'China',
     source: 'Internet Media',
     industry: 'Technology',
+    img: 'https://thumbor.forbes.com/thumbor/190x190/smart/filters:format(jpeg)/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F605e23c0f0986f688fbd3e15%2F416x416.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D1080%26cropY1%3D0%26cropY2%3D1080',
+    desc: 'Ma Huateng (also known as Pony Ma) chairs Chinese internet giant Tencent Holdings, which ranks among the nations largest businesses by market cap.',
   },
 ];
