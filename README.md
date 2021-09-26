@@ -1,11 +1,10 @@
 # Richest Peoples 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://top-billionaires-list.netlify.app/
 
 ## Available Scripts
 
-In the project directory, you can run:
-
+This is a Simple React Project on Top 15 Billionaires list in 2021
 ### `npm start`
 
 Runs the app in the development mode.\
