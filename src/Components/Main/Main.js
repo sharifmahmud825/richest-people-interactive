@@ -34,7 +34,7 @@ const Main = () => {
           ))}
         </div>
 
-        {/* Select people container */}
+        {/* Select people container  */}
         <div className='col-md-4 selected-container'>
           <Favorite favorite={favorite}></Favorite>
         </div>

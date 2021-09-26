@@ -1,19 +1,26 @@
 import React from 'react';
+import './Favorite.css';
 
 const Favorite = (props) => {
-  const { favorite } = props;
-  let favName = '';
-  for (const fav of favorite) {
-    if (fav) {
-      favName = fav.name;
-    }
-  }
+  const { favorite } = props || {};
 
+  // const totalReducer = (prevValue, currentValue) =>
+  //   prevValue + currentValue.networth;
+
+  // const total = favorite.reduce(totalReducer, 0).toFixed(2);
   return (
     <div>
       <h3 className='text-center fav p-3 text-white'>Favorite One's</h3>
       <h5 className='text-center'>People added : {props.favorite.length} </h5>
-      <h3> {favName} </h3>
+      <ul className='p-0 my-3'>
+        {favorite.map((fav) => (
+          <li className='d-flex justify-content-between fav-people py-2 px-4 my-2 text-align-start'>
+            <h6>{fav.name}</h6>
+            <h6> $ {fav.networth}B</h6>
+          </li>
+        ))}
+      </ul>
+      {/* <h3>{total}</h3> */}
     </div>
   );
 };
