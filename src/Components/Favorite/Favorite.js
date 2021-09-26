@@ -4,10 +4,10 @@ import './Favorite.css';
 const Favorite = (props) => {
   const { favorite } = props || {};
 
-  // const totalReducer = (prevValue, currentValue) =>
-  //   prevValue + currentValue.networth;
+  const totalReducer = (prevValue, currentValue) =>
+    prevValue + currentValue.networth;
 
-  // const total = favorite.reduce(totalReducer, 0).toFixed(2);
+  const total = favorite.reduce(totalReducer, 0);
   return (
     <div>
       <h3 className='text-center fav p-3 text-white'>Favorite One's</h3>
@@ -20,7 +20,8 @@ const Favorite = (props) => {
           </li>
         ))}
       </ul>
-      {/* <h3>{total}</h3> */}
+      <hr />
+      <h3 className='text-align-end'> Total Networth : $ {total}B</h3>
     </div>
   );
 };

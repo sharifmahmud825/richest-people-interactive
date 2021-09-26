@@ -2,7 +2,6 @@ import React from 'react';
 import './People.css';
 
 const People = (props) => {
-  console.log(props.people.name);
   // object destructuring
   const { img, name, age, country, source, networth, desc } = props.people;
   return (
